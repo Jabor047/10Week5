@@ -129,10 +129,10 @@ def runmodels():
     now = datetime.datetime.now().strftime('%d-%m-%Y-%H-%M-%S-%f')[:-3]
 
     # Save the model
-    filenameReg = 'regModel-' + now + '.pkl'
-    filenamePro = 'pModel-' + now + '.pkl'
-    pickle.dump(regModel, open(filenameReg, 'wb'))
-    pickle.dump(pModel, open(filenamePro, 'wb'))
+    # filenameReg = 'regModel-' + now + '.pkl'
+    # filenamePro = 'pModel-' + now + '.pkl'
+    # pickle.dump(regModel, open(filenameReg, 'wb'))
+    # pickle.dump(pModel, open(filenamePro, 'wb'))
 
     return render_template('model.html', labels=dfPreds['Id'], values=dfPreds['Sales'],
                            linelabels=fc['ds'], linevalues=fc['yhat'])
