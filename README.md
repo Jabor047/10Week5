@@ -1,5 +1,5 @@
 # 10acad
-The training files and code from 10academy 2020
+The training files and code from 10academy
 
 ## Week 5
 > ### Pharmaceutical Sales prediction across multiple stores
