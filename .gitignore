@@ -5,3 +5,5 @@
 *.json
 *.7z
 .ipynb_checkpoints
+__pycache__
+sample_submission.csv
